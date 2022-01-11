@@ -1,0 +1,37 @@
+.user {
+  margin-top: 1.25rem;
+  padding: 1.5rem 2rem;
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.user .icon {
+  padding-right: 1.5rem;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.wishlist {
+  list-style: none;
+  overflow: hidden;
+  overflow-y: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wishlist li {
+  padding: 1rem 2rem;
+  letter-spacing: 1.5px;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wishlist li:hover {
+  background-color: rgb(247, 247, 247);
+}
